@@ -1,0 +1,201 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template: Project Titlepage Modified (v 0.1) by rcx
+%
+% Original Source: http://www.howtotex.com
+% Date: February 2014
+% 
+% This is a title page template which be used for articles & reports.
+% 
+% This is the modified version of the original Latex template from
+% aforementioned website.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+\usepackage[a4paper]{geometry}
+\usepackage[myheadings]{fullpage}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{graphicx, wrapfig, subcaption, setspace, booktabs}
+\usepackage[T1]{fontenc}
+\usepackage[font=small, labelfont=bf]{caption}
+\usepackage{fourier}
+\usepackage[protrusion=true, expansion=true]{microtype}
+\usepackage[english]{babel}
+\usepackage{sectsty}
+\usepackage{url, lipsum}
+\usepackage{natbib}
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+\onehalfspacing
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{5}
+
+
+%-------------------------------------------------------------------------------
+% HEADER & FOOTER
+%-------------------------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\setlength\headheight{15pt}
+\fancyhead[L]{Student ID: HTR832}
+\fancyhead[R]{University of Copenhagen}
+\fancyfoot[R]{Page \thepage\ of \pageref{LastPage}}
+%-------------------------------------------------------------------------------
+% TITLE PAGE
+%-------------------------------------------------------------------------------
+\bibliographystyle{unsrt}
+\begin{document}
+
+% \bibliography{bib.bib}
+\title{ \normalsize \textsc{General Microbiology\\
+NBIA04034U}
+		\\ [2.0cm]
+		\HRule{0.5pt} \\
+		\LARGE \textbf{\uppercase{Projektopgave, Almen Mikrobiologi 2019}\\
+		\normalsize{\textsc{Karakteriser det humane mikrobiom og diskuter hvordan man kan påvirke det humane mikrobiom med probiotika, herunder hvilke udfordringer, der kan være knyttet hertil.}}}
+		\HRule{2pt} \\ [0.5cm]
+		\normalsize \today \vspace*{5\baselineskip}}
+
+\date{}
+
+\author{
+		Student ID: HTR832 \\ 
+		Exam Number: 4\\
+		Character Count: 5149\\
+		University of Copenhagen \\
+		Department of Biology}
+
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+%-------------------------------------------------------------------------------
+% Section title formatting
+\sectionfont{\scshape}
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+% BODY
+%-------------------------------------------------------------------------------
+
+\input{./introduction.tex}
+\section{Ecological niches}
+The microbiome can be divided into subgroups based on locations or niches on and in the human body. Recent studies have suggested that the differences in these are due, in part, to adaption to the niche, in which the specific species and subspecies are present\cite{Lloyd-Price2017}. In the Human Microbiome Project samples were taken from six body sites: anterior nares, buccal mucosa, supragingival plaque, tongue dorsum, stool and posterior fornix\cite{Lloyd-Price2017}.  
+
+\subsection{Variations in microbial communities}
+The human microbiome varies based on three main variables. It varies between individuals, between different areas of the body and it varies temporally\cite{Lloyd-Price2017}. 
+
+\subsubsection{Inter-individual variation}
+The variation between individuals is, at this point, difficult to predict, but evidence suggests that the structure of the microbial communities of the body are not random but fills specific ecological niches. This is evidenced by metagenomic studies mapping the different metabolic pathways of the microbial communities. While species vary greatly between individuals, the genes encoding the core pathways, such as vitamin B biosynthesis, tend to vary less\cite{Lloyd-Price2017}.
+
+\subsubsection{Body site variation} 
+Body site variation depend on two factors: variation in species and variation in subspeciation. The different areas of the body have different communities with specific functions, which are thus comprised of different species and subspecies\cite{Lloyd-Price2017}.
+\textit{Haemophilus parainfluenzae}, for example, has been found to have distinct subspecies clades in the supragingival plaque, the buccal mucosa and the tongue dorsum\cite{Lloyd-Price2017}.
+
+\subsubsection{Temporal variation}
+Most of the human microbiome has been shown to be temporally stable, but evidence suggests the vaginal microbiome is less stable than other areas\cite{Lloyd-Price2017}. 
+
+\section{Probiotics} 
+Probiotics are living nonpathogenic bacteria and yeast. They are sold in a variety of formats from yoghurt to oral granules. But while probiotics are becoming increasingly popular, there is little evidence to support their efficacy on disease aside from gastrointestinal-related illnesses\cite{Islam2016}. 
+
+Amongst the most commonly used organisms in probiotics are the bacterial geni \textit{Lactobacillus} and \textit{Bifidobacterium}, as well as the yeast \textit{Saccharomyces boulardii}.  From \textit{Lactobacillus} the most common species are: \textit{L. acidophilus, L. rhamnosus, L. bulgaricus, L. reuteri} and \textit{L. casei}, and from \textit{Bifidobacterium}: \textit{B. animalis, B. infanti, B. lactis} and \textit{B. longum}\cite{Islam2016}. 
+
+
+\subsection{Gastrointestinal-related illnesses}
+Evidence suggests that probiotics have beneficial effects on some gastrointestinal-related illnesses, but results for some have been conflicting and the mechanisms through which these beneficial effects are achieved are not well-understood\cite{Islam2016}. This has led to calls for further investigations into both their efficacy and the mechanisms underlying the potential benefits of probiotics. 
+
+
+
+\subsubsection{Traveler’s diarrhea} 
+Traveler’s diarrhea is commonly caused by the introduction of unfamiliar bacteria or viruses to the gastrointestinal microbial flora. Preventive use of probiotics have been suggested as method to reduce the risk of contracting traveler’s diarrhea, but clinical studies show inconsistent results\cite{McFarland2007, Katelaris1995,Hilton1997,Allen2004}. 
+
+\subsubsection{Antibiotic-associated diarrhea}
+Evidence suggest that probiotics have potential in treatment of antibiotic-associated diarrhea. Studies demonstrate reductions in diarrheal episodes stemming from antibiotic-associated diarrhea during treatment with probiotics\cite{Cremonini2002,McFarland2006,Hickson2007}. 
+
+\subsubsection{Acute diarrhea in children}
+Acute diarrhea in children is commonly caused by rotavirus. Studies have shown that treatment with probiotics shortens the duration of the illness by 0.7 [REFERENCE] to 1 day \cite{Guandalini2000}. 
+
+\subsubsection{Inflammatory bowel disease}
+One of the manifestations of inflammatory bowel disease is an altered microbial flora in the gastrointesinal tract. Probiotics seem an obvious treatment, and studies suggest the same. When compared to treatment with mesalazine over 12 months, E. coli Nissle 1917 show similar reductions in relapses\cite{Islam2016}. Further investigation into other strains and dosages is needed before it can definitively be considered an alternative however. 
+
+\section{Conclusion}
+The human microbiome is highly individual, but growing evidence seem to suggest that while the particular strains present on an individual level might be unique, many of the taxons fit into general nichés. This avenue of investigation might lead to further understanding of the complex dynamics of the microbial communities. 
+
+While probiotics are becoming increasingly popular and are being sold as treatment options for everything from GI-related illnesses to weight loss, it is important to be cautious with regards to their efficacy. Studies into their benefits with regards to GI-related illnesses are showing promising results, but in general definitive evidence is lacking and further research is needed into which specific strains are effective and levels of dosage. Thus excitement at the promise of probiotics in clinical treatment of GI-related illnesses should be tempered with caution at the current lack of understanding with regards to the underlying mechanisms. 
+
+
+
+%-------------------------------------------------------------------------------
+% REFERENCES
+%-------------------------------------------------------------------------------
+\newpage
+\addcontentsline{toc}{section}{References}
+\bibliography{bib}
+\end{document}
+
+%-------------------------------------------------------------------------------
+% SNIPPETS
+%-------------------------------------------------------------------------------
+
+%\begin{figure}[!ht]
+%	\centering
+%	\includegraphics[width=0.8\textwidth]{file_name}
+%	\caption{}
+%	\centering
+%	\label{label:file_name}
+%\end{figure}
+
+%\begin{figure}[!ht]
+%	\centering
+%	\includegraphics[width=0.8\textwidth]{graph}
+%	\caption{Blood pressure ranges and associated level of hypertension (American Heart Association, 2013).}
+%	\centering
+%	\label{label:graph}
+%\end{figure}
+
+%\begin{wrapfigure}{r}{0.30\textwidth}
+%	\vspace{-40pt}
+%	\begin{center}
+%		\includegraphics[width=0.29\textwidth]{file_name}
+%	\end{center}
+%	\vspace{-20pt}
+%	\caption{}
+%	\label{label:file_name}
+%\end{wrapfigure}
+
+%\begin{wrapfigure}{r}{0.45\textwidth}
+%	\begin{center}
+%		\includegraphics[width=0.29\textwidth]{manometer}
+%	\end{center}
+%	\caption{Aneroid sphygmomanometer with stethoscope (Medicalexpo, 2012).}
+%	\label{label:manometer}
+%\end{wrapfigure}
+
+%\begin{table}[!ht]\footnotesize
+%	\centering
+%	\begin{tabular}{cccccc}
+%	\toprule
+%	\multicolumn{2}{c} {Pearson's correlation test} & \multicolumn{4}{c} {Independent t-test} \\
+%	\midrule	
+%	\multicolumn{2}{c} {Gender} & \multicolumn{2}{c} {Activity level} & \multicolumn{2}{c} {Gender} \\
+%	\midrule
+%	Males & Females & 1st level & 6th level & Males & Females \\
+%	\midrule
+%	\multicolumn{2}{c} {BMI vs. SP} & \multicolumn{2}{c} {Systolic pressure} & \multicolumn{2}{c} {Systolic Pressure} \\
+%	\multicolumn{2}{c} {BMI vs. DP} & \multicolumn{2}{c} {Diastolic pressure} & \multicolumn{2}{c} {Diastolic pressure} \\
+%	\multicolumn{2}{c} {BMI vs. MAP} & \multicolumn{2}{c} {MAP} & \multicolumn{2}{c} {MAP} \\
+%	\multicolumn{2}{c} {W:H ratio vs. SP} & \multicolumn{2}{c} {BMI} & \multicolumn{2}{c} {BMI} \\
+%	\multicolumn{2}{c} {W:H ratio vs. DP} & \multicolumn{2}{c} {W:H ratio} & \multicolumn{2}{c} {W:H ratio} \\
+%	\multicolumn{2}{c} {W:H ratio vs. MAP} & \multicolumn{2}{c} {\% Body fat} & \multicolumn{2}{c} {\% Body fat} \\
+%	\multicolumn{2}{c} {} & \multicolumn{2}{c} {Height} & \multicolumn{2}{c} {Height} \\
+%	\multicolumn{2}{c} {} & \multicolumn{2}{c} {Weight} & \multicolumn{2}{c} {Weight} \\
+%	\multicolumn{2}{c} {} & \multicolumn{2}{c} {Heart rate} & \multicolumn{2}{c} {Heart rate} \\
+%	\bottomrule
+%	\end{tabular}
+%	\caption{Parameters that were analysed and related statistical test performed for current study. BMI - body mass index; SP - systolic pressure; DP - diastolic pressure; MAP - mean arterial pressure; W:H ratio - waist to hip ratio.}
+%	\label{label:tests}
+%\end{table}
